@@ -13,4 +13,5 @@ Directories Permissions: chmod a+X *
 Mirror permissions: chmod --reference=olleh hello
 Making directories with permissions attached: mkdir -m751 my_dir
 Changing group owner: chgrp school hello
-Chanign owner and group: chown vincent:staff *
+Changing owner and group: chown vincent:staff *
+Changing symbolic link owner and group owner: sudo chown -h vincent:staff _hello
