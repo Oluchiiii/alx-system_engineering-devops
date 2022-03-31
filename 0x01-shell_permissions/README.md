@@ -16,3 +16,4 @@ Changing group owner: chgrp school hello
 Changing owner and group: chown vincent:staff *
 Changing symbolic link owner and group owner: sudo chown -h vincent:staff _hello
 Changing owner if_only: sudo chown --from=guillaume betty hello
+Playing star wars: telnet towel.blinkenlights.nl
