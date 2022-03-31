@@ -8,3 +8,4 @@ Adding execute permission:  chmod u+x hello
 Adding multiple permissions: chmod ug+x,o+r hello
 Adding execute permission to everybody: chmod ugo+x hello
 No permission for user/group:all permissions for group: chmod 007 hello
+Setting modes offhand: chmod 753 hello
