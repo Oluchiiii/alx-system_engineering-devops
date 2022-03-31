@@ -9,4 +9,5 @@ Adding multiple permissions: chmod ug+x,o+r hello
 Adding execute permission to everybody: chmod ugo+x hello
 No permission for user/group:all permissions for group: chmod 007 hello
 Setting modes offhand: chmod 753 hello
-Mirror permissions: chmod --reference=hello olleh
+Mirror permissions: chmod --reference=olleh hello
+Making directories with permissions attached: mkdir -m751 my_dir
