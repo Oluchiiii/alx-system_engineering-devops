@@ -11,3 +11,4 @@ No permission for user/group:all permissions for group: chmod 007 hello
 Setting modes offhand: chmod 753 hello
 Mirror permissions: chmod --reference=olleh hello
 Making directories with permissions attached: mkdir -m751 my_dir
+Changing group owner: chgrp school hello
