@@ -6,3 +6,4 @@ TO display last 10 lines: tail -n 10 file_name
 To display first 10 lines: head -n 10 file_name
 To display a third  line: head -2 file_name | tail -1
 To write something int a file anem: echo content > file_name
+**ls -la > file_name** prints output into the file name
