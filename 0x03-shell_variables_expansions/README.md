@@ -9,3 +9,5 @@
 **echo $(($POWER / $DIVIDE))** gives the arithmethic expression(division) of the bracket contnet
 **echo $(($BREATH**$LOVE))** gives arithmethic expression(rates to power) of the bracket
 **echo $((2#$BINARY))** gives arithmethic expression(conversion to binary) of bracket
+**echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"** gives prints all possible combos of two letters except oo
+**printf "%.2f" $NUM | sort** prints a number with two decimal places
